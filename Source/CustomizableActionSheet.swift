@@ -219,7 +219,7 @@ public class CustomizableActionSheet: NSObject {
         }, completion: nil)
     }
     
-    public func insetShadow(){
+    public func addShadow(){
         self.itemContainerView.layer.shadowColor = UIColor.black.cgColor
         self.itemContainerView.layer.shadowOffset = CGSize(width: 3, height: 0)
         self.itemContainerView.layer.shadowRadius = 7.5
