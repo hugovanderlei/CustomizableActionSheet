@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "http://twitter.com/beryu"
   s.platform = :ios
   s.ios.deployment_target = "8.0"
-  s.source = { :git => 'https://github.com/hugovanderlei/CustomizableActionSheet.git', :commit => '06b624b2c8eafb28f1656783a1f6be5e03de8626' }
+  s.source = { :git => 'https://github.com/hugovanderlei/CustomizableActionSheet.git' }
   s.source_files = "Source/*"
   s.requires_arc = true
 end
